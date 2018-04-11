@@ -1,0 +1,184 @@
+body{
+	background-color: #000000;
+}
+/* barra de navegação */
+ul {
+    list-style-type: none;
+    margin right: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF4A00;
+}
+
+li {
+    float: right;
+}
+
+    a:link{
+        background-color: #FF4A00;
+        color: white;
+        padding: 35px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        }
+    a:visited{
+        color: white;
+        text-align: center;
+
+        padding: 35px 20px;
+        margin left: 1000px; 
+    }
+    a:hover{
+        color: black;
+    } 
+
+nav{
+    position: fixed;
+    top: -16px;
+    width: 100%;
+    
+}
+p{
+	margin-top: 10px;
+	margin-left: 35px;
+
+}
+/* nome da empresa */
+.a{
+	margin-left: 0px;
+    margin-top: 15px;
+    float: left;
+    background-color: #FF4A00;
+}
+/* slogan */
+#slogan{
+    margin-top: 110px;
+    color: orange;
+    font-size: 30px;
+}
+
+/* imagem de destaque */
+.image {
+  opacity: 1;
+  display: block;
+  width: 99%;
+  height: auto;
+  margin: 5px 0px 0px 150px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+
+/* legenda da imagem */
+#inicio{
+	text-align: justify;
+    color: black;
+    font-size: 13px;
+}
+.c{
+    background-color: white;
+    width: 1200px;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 150px;
+}
+/* galeria de imagens*/
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-left:0px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+div.bloco1 {
+    margin-left: 50px;
+}
+div.bloco2 {
+    margin-left: 550px;
+}
+div.bloco3 {
+    margin-left: 1020px;
+}
+div.bloco4 {
+    margin-left: 200px;
+}
+div.bloco5 {
+    margin-left: 800px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* compras */
+#ola{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* texto final */
+#QuemSomos{
+    margin-top: 50px;
+    text-align: justify;
+    color: black;
+    font-size: 20px
+}
+.d{
+    background-color: white;
+    width: 1250px;
+    border: 2px solid gray;
+    padding: 25px;
+    margin: 25px;
+    margin-left: 110px;
+}
+/* rodapé */
+.b{
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+}
