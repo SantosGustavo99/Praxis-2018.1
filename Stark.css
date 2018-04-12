@@ -1,0 +1,128 @@
+body{
+    background-image: url("fundo2.png") ;
+}
+li {
+    display: inline;
+    float: right;
+    font-size: 150%;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+header {
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+div{
+    position: absolute;
+    top:0px;
+    
+}
+
+#logo {
+    width: 55%;
+    height: 45%;
+}
+.back{
+    background-color: rgba(236,236,236,0.8);
+}
+.expo{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 103px;
+}
+#Quem-Somos{
+    width: 94%;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+#fabrica{
+    float: left;
+    width: 20%;
+    padding: 7px;
+}
+.para{
+    font-family:Stencil Std, fantasy; 
+    padding-bottom: 60px;
+    text-align: justify;
+}
+.newproducts{
+    display: block;
+    width: 100%;
+    height: 450px;
+    padding-right: 100px; 
+}
+
+h3{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+#prerodape{
+    display: block;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box; 
+    height: 80px;
+    width: 100%
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;   
+    padding-right: 20px;
+    padding-left: 15px;
+    min-height: 20px; 
+}
+#fieldset{
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-weight: 2;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 1.2em;
+    line-height: 17.1429px;
+    text-align: center;
+    background-color: rgba(236,236,236,0.8);
+}
+.col-md-12{
+    margin-top:15px;
+    min-height:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:1px;
+    position: relative;
+    width: 560px;
+    word-spacing:0px;
+    writing-mode: horizontal-tb;
+}
+#map {
+    height: 200px;
+    width: 520%;
+    position: absolute;
+    padding-top: 80px;
+    border-bottom: 0;
+    bottom:0; 
+    left: 800px;
+    margin-top: 0;
+    right: 100px;
+    padding-right: 20px
+    background-position: : 
+    bottom:;
+}
+h4{
+    background-color: rgba(236,236,236,0.8);
+}

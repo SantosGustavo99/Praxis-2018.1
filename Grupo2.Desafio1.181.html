@@ -1,0 +1,84 @@
+<!DOCtype html>
+<html lang="pt-Br">
+<head>
+	<link rel="icon" href="ar.png">
+	<title>Industrias Stark</title>
+	<link rel="stylesheet" type="text/css" href="Stark.css">
+	<style>
+        #map {
+        height: 200px;
+        width: 520%;
+        position: absolute;
+        padding-top: 80px;
+        border-bottom: 0;
+        bottom:0; 
+        left: 800px;
+        margin-top: 0;
+        right: 100px;
+        padding-right: 20px
+        background-position: : 
+        bottom:;
+       }
+    </style>
+</head>
+<body>
+	<header class="back">
+		<nav>
+			<ul>
+				<div><img src="logo.png" alt="Industrias Stark Logo" id="logo"></div>
+				<li><a href="#Contato">Contato</a></li>
+				<li><a href="#Produtos">Produtos</a></li>
+				<li><a href="#Quem-Somos">Quem Somos</a></li>
+				<li><a href="https://www.stark.com">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<img src="expo.png" alt="Expo" class="expo">
+	<section id="Quem-Somos" class="back">
+		<h2><b>Quem Somos</b></h2>
+		<img src="fabrica.png" alt="Primeira Fábrica" id="fabrica">
+		<p class="para">Fundada por Howard Stark e Obadiah Stane, em 1934, as Indústrias Stark é uma empresa americana aeroespacial, de defesa, segurança e tecnologia avançada com interesses mundiais. Está sediada em Los Angeles, Califórnia. Anteriormente conhecida como Stark Enterprises. Somos um grande pioneiro em diferentes tipos de tecnologias e estamos constantemente ajudando as Forças Armadas Americanas com armas diferentes e inovadoras, tais como o Soro do Super Soldado. Anos após a fundação, Howard Stark e Anton Vanko criaram o Reator Arc, uma fonte que entrega energia livre, pura e eficiente para a principal fábrica das Indústrias Stark. Atualmente, as Indústrias Stark empregam milhares de pessoas com instalações em mais de trinta países diferentes nos sete continentes.</p>		
+	</section>
+	<section id="Produtos" class="back">
+		<h3><b>Produtos</b></h3>
+		<img src="newproducts.png" alt="Indústrias Stark Produtos" class="newproducts">	
+
+	</section>
+
+	<div id="prerodape" class="contato col-md-12">
+		<div class="col-md-offset-1 col-md-10">
+		<div id="info" class="col-md-5">
+		  <fieldset id="fieldset">		
+			<legend>
+			  <h4>Entre em contato</h4>
+		    </legend>
+			<form action="_php/contact-form.php" method="post" enctype="multipart/form-data" class="col-md-12">
+				<input class="col-md-12" type="text" name="nome" placeholder="Nome">
+				<input class="col-md-12" type="email" name="email" placeholder="E-mail">
+				<input class="col-md-12" type="text" name="assunto" placeholder="Assunto">
+				<textarea class="col-md-12" maxlength="200" wrap="hard" name="mensagem" placeholder="Mensagem"></textarea>
+				<input type="submit" class="submit btn-primary col-md-offset-10 col-md-2" value="Enviar">
+			</form>
+			<script>
+      		function initMap() {
+        		var uluru = {lat: 34.052235, lng: -118.243683};
+       		 var map = new google.maps.Map(document.getElementById('map'), {
+         		 zoom: 8,
+         		 center: uluru
+       		 });
+       		 var marker = new google.maps.Marker({
+          		position: uluru,
+         		 map: map
+        		});
+      		}
+   			</script>
+    		<script async defer
+    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUVacAbP4dKzIwfW-NUDFx8ouuXpEEeZM&callback=initMap">
+   			 </script>
+		  </fieldset>
+	</div>
+	<h3></h3>
+    <div id="map"></div>
+    
+</body>
+</html>
