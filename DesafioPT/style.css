@@ -1,0 +1,112 @@
+ul{
+	list-style: none;
+	float: right;
+}
+li{
+	display: inline-grid;
+	margin-right: 20px;
+	font-family: "Verdana";
+    
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+
+	color: white;
+	text-decoration: none;   
+}
+
+body{
+background-color: white;
+margin:0;
+
+
+}
+
+nav{
+
+    width: 1349px;
+ 	height: 55px;
+ 	background-color:#87CEEB;
+ 		
+}
+
+#logo{
+	height: 50px;
+}
+
+#home{
+	height: 798px;
+	width: 1349px;;
+}
+
+#fundo_home{
+	height: 798px;
+    width: 1349px;;
+}
+
+#texto_home{
+
+	position: absolute;
+	margin-top: 313px;
+    margin-left: 483px;
+    text-shadow: 1px 1px black;
+    font-family: "Courier New";
+}
+
+#comentario_home{
+
+	position: absolute;
+	margin-top: 350px;
+    margin-left: 565px;
+    text-shadow: 1px 1px black;
+    font-family: "Courier New";
+}
+#title_serviços{
+
+	position: absolute;
+	margin-top: 30px;
+    margin-left: 600px;
+    text-shadow: 1px 1px black;
+    font-family: "Courier New";
+}
+#foto_Serviços{
+	width: 1325px;
+	margin-left:20px;
+	margin-top: 60px;
+}
+#empresa{
+
+	position: absolute;
+	margin-left: 578px;
+    text-shadow: 1px 1px black;
+    font-family: "Courier New";
+}
+#foto_empresa{
+	margin-left:81px;
+	margin-top: 90px;
+}
+
+#Serviços{
+
+	background-color: #C6D4F3;
+	width: 1349px;
+    height: 483px;
+}
+
+#Nossa_empresa{
+
+	background-color: #F8F8FF;
+	width: 1349px;
+    height: 560px;
+}
+
+#contatos{
+    width: 1349px;
+	height: 300px;
+}
+
